@@ -1,0 +1,1762 @@
+[
+    {
+        "id": "af3a746d.cca938",
+        "type": "tab",
+        "label": "IndAnalytics",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "7f6749be.4882c8",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp1",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 510,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "6e4d0245.8cc16c",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 140,
+        "wires": [
+            [
+                "7f6749be.4882c8"
+            ]
+        ]
+    },
+    {
+        "id": "56226b9c.e84274",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "1420f1a8.3d39de"
+            ]
+        ]
+    },
+    {
+        "id": "59d862f9.e7553c",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 220,
+        "wires": [
+            [
+                "187b8028.a18a2"
+            ]
+        ]
+    },
+    {
+        "id": "1420f1a8.3d39de",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp2",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 510,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "187b8028.a18a2",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp3",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 510,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6942175a.8252a8",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp4",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 510,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "14927499.41bd8b",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp5",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 510,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f1204092.563d6",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 260,
+        "wires": [
+            [
+                "6942175a.8252a8"
+            ]
+        ]
+    },
+    {
+        "id": "e2483840.a1af08",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 300,
+        "wires": [
+            [
+                "14927499.41bd8b"
+            ]
+        ]
+    },
+    {
+        "id": "599bcfe9.68313",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp6",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 510,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "c7c8b837.4ef518",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 340,
+        "wires": [
+            [
+                "599bcfe9.68313"
+            ]
+        ]
+    },
+    {
+        "id": "ead44e87.fbfd6",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp31",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ac1e07b7.7c25f8",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 140,
+        "wires": [
+            [
+                "ead44e87.fbfd6"
+            ]
+        ]
+    },
+    {
+        "id": "c3d4edf3.e00ec",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 180,
+        "wires": [
+            [
+                "876ce2e1.a0616"
+            ]
+        ]
+    },
+    {
+        "id": "d89a677b.4c92f8",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 220,
+        "wires": [
+            [
+                "a2a5a626.966028"
+            ]
+        ]
+    },
+    {
+        "id": "876ce2e1.a0616",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp32",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "a2a5a626.966028",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp33",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "dd78d58c.a3c388",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp34",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "96f1bcc9.747e",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp35",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8bcf1769.a00038",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 260,
+        "wires": [
+            [
+                "dd78d58c.a3c388"
+            ]
+        ]
+    },
+    {
+        "id": "96413ec8.befc",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 300,
+        "wires": [
+            [
+                "96f1bcc9.747e"
+            ]
+        ]
+    },
+    {
+        "id": "e0776c32.ad117",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp36",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "455fc499.bdefac",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 340,
+        "wires": [
+            [
+                "e0776c32.ad117"
+            ]
+        ]
+    },
+    {
+        "id": "66722e71.1f515",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp37",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "af267746.e3d428",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 420,
+        "wires": [
+            [
+                "66722e71.1f515"
+            ]
+        ]
+    },
+    {
+        "id": "9e558441.9d1ba8",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 460,
+        "wires": [
+            [
+                "8d964554.35d288"
+            ]
+        ]
+    },
+    {
+        "id": "7336b8fd.4974e8",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 500,
+        "wires": [
+            [
+                "fb05743e.5c2e08"
+            ]
+        ]
+    },
+    {
+        "id": "8d964554.35d288",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp38",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "fb05743e.5c2e08",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp39",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "dfc16f5d.0fd67",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp40",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b82befd9.652e7",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp41",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "35607839.a0be78",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 540,
+        "wires": [
+            [
+                "dfc16f5d.0fd67"
+            ]
+        ]
+    },
+    {
+        "id": "b0c08e2.0fc977",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 580,
+        "wires": [
+            [
+                "b82befd9.652e7"
+            ]
+        ]
+    },
+    {
+        "id": "ce209c11.40f4f",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp42",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "105b5099.d7c82f",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 620,
+        "wires": [
+            [
+                "ce209c11.40f4f"
+            ]
+        ]
+    },
+    {
+        "id": "4186afff.07346",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp7",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 510,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "18c8c92f.d47717",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 680,
+        "wires": [
+            [
+                "4186afff.07346"
+            ]
+        ]
+    },
+    {
+        "id": "2a940d62.ea5c32",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 720,
+        "wires": [
+            [
+                "c50e97f5.7fcd98"
+            ]
+        ]
+    },
+    {
+        "id": "fc1721d4.e2749",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 760,
+        "wires": [
+            [
+                "9f7cecae.a7295"
+            ]
+        ]
+    },
+    {
+        "id": "c50e97f5.7fcd98",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp8",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 510,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "9f7cecae.a7295",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp9",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 510,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "2da1b2ec.d9de0e",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp10",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 520,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "14e8f6.3ce1c70b",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp11",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 520,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "72e59cc7.3bd8c4",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 800,
+        "wires": [
+            [
+                "2da1b2ec.d9de0e"
+            ]
+        ]
+    },
+    {
+        "id": "ad9555bb.5c5088",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 840,
+        "wires": [
+            [
+                "14e8f6.3ce1c70b"
+            ]
+        ]
+    },
+    {
+        "id": "c7c2957.661fe68",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp12",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 520,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "be7868bc.683228",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 160,
+        "y": 880,
+        "wires": [
+            [
+                "c7c2957.661fe68"
+            ]
+        ]
+    },
+    {
+        "id": "c5999141.3d279",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp43",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "f00a75da.1ecc78",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 700,
+        "wires": [
+            [
+                "c5999141.3d279"
+            ]
+        ]
+    },
+    {
+        "id": "71dc3665.91fc38",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": false,
+        "stick": true,
+        "x": 780,
+        "y": 740,
+        "wires": [
+            [
+                "c52272db.cdb48"
+            ]
+        ]
+    },
+    {
+        "id": "a7c9e02b.97a38",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": true,
+        "x": 780,
+        "y": 780,
+        "wires": [
+            [
+                "7110ee5d.842a"
+            ]
+        ]
+    },
+    {
+        "id": "c52272db.cdb48",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp44",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "7110ee5d.842a",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp45",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "adff11ec.c1e33",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp46",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "2cfb28a1.66c5a8",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp47",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "a548d96a.481458",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 780,
+        "y": 820,
+        "wires": [
+            [
+                "adff11ec.c1e33"
+            ]
+        ]
+    },
+    {
+        "id": "d3964a55.35a418",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": false,
+        "stick": true,
+        "x": 780,
+        "y": 860,
+        "wires": [
+            [
+                "2cfb28a1.66c5a8"
+            ]
+        ]
+    },
+    {
+        "id": "58b660b4.b4347",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp48",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1140,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "46bbbd7f.6cc204",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": true,
+        "x": 780,
+        "y": 900,
+        "wires": [
+            [
+                "58b660b4.b4347"
+            ]
+        ]
+    },
+    {
+        "id": "7a358d0c.7af4e4",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp13",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "d1f76ebd.f4faa",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 960,
+        "wires": [
+            [
+                "7a358d0c.7af4e4"
+            ]
+        ]
+    },
+    {
+        "id": "984e4585.055b98",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1000,
+        "wires": [
+            [
+                "4ec5abd8.c8c6d4"
+            ]
+        ]
+    },
+    {
+        "id": "50421519.29843c",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1040,
+        "wires": [
+            [
+                "887b4d2b.a8117"
+            ]
+        ]
+    },
+    {
+        "id": "4ec5abd8.c8c6d4",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp14",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "887b4d2b.a8117",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp15",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "79fcfb79.cc3004",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp16",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "fe81dddb.9e215",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp17",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "4ea95c6d.2086b4",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1080,
+        "wires": [
+            [
+                "79fcfb79.cc3004"
+            ]
+        ]
+    },
+    {
+        "id": "11b38384.11776c",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1120,
+        "wires": [
+            [
+                "fe81dddb.9e215"
+            ]
+        ]
+    },
+    {
+        "id": "e2d0e7bb.c279c8",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp18",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "a9fc55cc.e11e38",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1160,
+        "wires": [
+            [
+                "e2d0e7bb.c279c8"
+            ]
+        ]
+    },
+    {
+        "id": "f409898.a65b478",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp49",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1200,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "a1492e93.17cec",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 840,
+        "y": 1020,
+        "wires": [
+            [
+                "f409898.a65b478"
+            ]
+        ]
+    },
+    {
+        "id": "8b277816.b79488",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 840,
+        "y": 1060,
+        "wires": [
+            [
+                "7bd8e69f.a5d0f8"
+            ]
+        ]
+    },
+    {
+        "id": "3126bd96.f3c2f2",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 840,
+        "y": 1100,
+        "wires": [
+            [
+                "ca14e8fd.a9b418"
+            ]
+        ]
+    },
+    {
+        "id": "7bd8e69f.a5d0f8",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp50",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1200,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "ca14e8fd.a9b418",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp51",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1200,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "113c0b84.58e244",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp52",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1200,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "19b957ab.fc3868",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp53",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1200,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "66d2a0c2.a41ac",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 840,
+        "y": 1140,
+        "wires": [
+            [
+                "113c0b84.58e244"
+            ]
+        ]
+    },
+    {
+        "id": "cf486101.8e268",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 840,
+        "y": 1180,
+        "wires": [
+            [
+                "19b957ab.fc3868"
+            ]
+        ]
+    },
+    {
+        "id": "7ebdaccd.4b60d4",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp54",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1200,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "ba922dec.73635",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 840,
+        "y": 1220,
+        "wires": [
+            [
+                "7ebdaccd.4b60d4"
+            ]
+        ]
+    },
+    {
+        "id": "f8d75855.4c09f8",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp19",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "c2ce9861.2e3058",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1240,
+        "wires": [
+            [
+                "f8d75855.4c09f8"
+            ]
+        ]
+    },
+    {
+        "id": "2ac91943.6c3736",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1280,
+        "wires": [
+            [
+                "d710b2b2.f8282"
+            ]
+        ]
+    },
+    {
+        "id": "95fdc08d.c38c2",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1320,
+        "wires": [
+            [
+                "d145c427.2f0f78"
+            ]
+        ]
+    },
+    {
+        "id": "d710b2b2.f8282",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp20",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "d145c427.2f0f78",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp21",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "10464723.b2aff9",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp22",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "4b587bef.c8bfb4",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp23",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "7adf9482.7512cc",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1360,
+        "wires": [
+            [
+                "10464723.b2aff9"
+            ]
+        ]
+    },
+    {
+        "id": "9b17bbb.6e87448",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1400,
+        "wires": [
+            [
+                "4b587bef.c8bfb4"
+            ]
+        ]
+    },
+    {
+        "id": "ab7755fb.65c158",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp24",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "c5ed0840.cc7088",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1440,
+        "wires": [
+            [
+                "ab7755fb.65c158"
+            ]
+        ]
+    },
+    {
+        "id": "2da514e3.11516c",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "scadaerror1",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1220,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "9edbb6df.234c48",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1520,
+        "wires": [
+            [
+                "c139eb52.8bc048"
+            ]
+        ]
+    },
+    {
+        "id": "98bc124.9a9acf",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1560,
+        "wires": [
+            [
+                "722cf0c7.95cdc"
+            ]
+        ]
+    },
+    {
+        "id": "c465e129.f7ea2",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1600,
+        "wires": [
+            [
+                "9b1aad25.9c2b9"
+            ]
+        ]
+    },
+    {
+        "id": "598767b5.82fb28",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "toolachsle1",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1220,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "10d32107.acefff",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "toolachsle2",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1220,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "8f0c6bcd.b75588",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "toolachsle3",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1220,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "c7b748b0.73c138",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "toolachsle4",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1220,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "7b47d38f.cd94ac",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1640,
+        "wires": [
+            [
+                "9f6a4917.8af898"
+            ]
+        ]
+    },
+    {
+        "id": "e39c8b9c.e025f8",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1680,
+        "wires": [
+            [
+                "4cc0606b.fb6a6"
+            ]
+        ]
+    },
+    {
+        "id": "ac34b99.0e01a48",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "toolachsle5",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 1220,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "d7b0895f.071838",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": true,
+        "stick": false,
+        "x": 180,
+        "y": 1720,
+        "wires": [
+            [
+                "d28b918e.052e2"
+            ]
+        ]
+    },
+    {
+        "id": "c139eb52.8bc048",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp25",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "3a8be963.5573c6",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": false,
+        "stick": true,
+        "x": 860,
+        "y": 1340,
+        "wires": [
+            [
+                "598767b5.82fb28"
+            ]
+        ]
+    },
+    {
+        "id": "47530428.ac9bdc",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": false,
+        "stick": true,
+        "x": 860,
+        "y": 1380,
+        "wires": [
+            [
+                "10d32107.acefff"
+            ]
+        ]
+    },
+    {
+        "id": "722cf0c7.95cdc",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp26",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "9b1aad25.9c2b9",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp27",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "9f6a4917.8af898",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp28",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "4cc0606b.fb6a6",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp29",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "7357ff92.141c4",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": false,
+        "stick": true,
+        "x": 860,
+        "y": 1420,
+        "wires": [
+            [
+                "8f0c6bcd.b75588"
+            ]
+        ]
+    },
+    {
+        "id": "ce11df4.cfa7f2",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": false,
+        "stick": true,
+        "x": 860,
+        "y": 1460,
+        "wires": [
+            [
+                "c7b748b0.73c138"
+            ]
+        ]
+    },
+    {
+        "id": "d28b918e.052e2",
+        "type": "influxdb out",
+        "z": "af3a746d.cca938",
+        "influxdb": "380a62ba.9dfebe",
+        "name": "",
+        "measurement": "temp30",
+        "precision": "",
+        "retentionPolicy": "",
+        "x": 540,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "2ce201d2.7ab08e",
+        "type": "rpi-sensehatsim in",
+        "z": "af3a746d.cca938",
+        "name": "Tempanalytics",
+        "motion": false,
+        "env": false,
+        "stick": true,
+        "x": 860,
+        "y": 1500,
+        "wires": [
+            [
+                "ac34b99.0e01a48"
+            ]
+        ]
+    },
+    {
+        "id": "dfe224c4.99af48",
+        "type": "twitter in",
+        "z": "af3a746d.cca938",
+        "twitter": "",
+        "tags": "#liverpool",
+        "user": "false",
+        "name": "IoT Tweets",
+        "inputs": 1,
+        "x": 850,
+        "y": 1300,
+        "wires": [
+            [
+                "2da514e3.11516c"
+            ]
+        ]
+    },
+    {
+        "id": "380a62ba.9dfebe",
+        "type": "influxdb",
+        "z": "",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "industrialanalytics2",
+        "name": "",
+        "usetls": false,
+        "tls": ""
+    }
+]
